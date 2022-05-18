@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+body{
+display:flex;
+align-items: center;
+justify-content: 'Quicksand',sans-serif;
+height: 100vh;
+margin: 0;
+background: #FFEFBA;/* CALLBACK FOR OLB BROWSERS*/
+background:-webkit-linear-gradient(to right,#FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+img{
+  
+	max-width: 600px;
+	border-radius: 30px;
+  
+}
+button{
+	border: 0;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 16px;
+	background: orangered;
+	color: white;
+	margin: 20px 0;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+button:hover{
+    background: orange;
+}
